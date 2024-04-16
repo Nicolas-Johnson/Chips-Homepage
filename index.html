@@ -4,26 +4,70 @@
     <meta charset="UTF-8" />
     <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="">
+
     <title>Chips</title>
   </head>
   <body>
 
+    <header class="header" id="header">
 
-    ========== HEADER ==========
-.nav__logo
-CHIPS
+      <nav class="nav wrapper">
+        <a href="" class="nav__logo">CHIPS</a>
 
-.nav__link
-Home - Favorites - Care - Products - Contact
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link">Home</a>
+            </li>
 
-.nav__social
-https://www.facebook.com/
-https://www.instagram.com/
-https://twitter.com/
+            <li>
+              <a href="#favorites" class="nav__link">Favorites</a>
+            </li>
 
+            <li>
+              <a href="#care" class="nav__link">Care</a>
+            </li>
 
-========== HOME ==========
-.home__title
+            <li>
+              <a href="#products" class="nav__link">Products</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-large-line"></i>
+          </div>
+
+          <div class="nav__social">
+            <a href="https://www.facebook.com/" target="_blank" class="nav__social-link">
+              <i class="ri-facebook-circle-line"></i>
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank" class="nav__social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+
+            <a href="https://twitter.com/" target="_blank" class="nav__social-link">
+              <i class="ri-twitter-x-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-apps-2-line"></i>
+        </div>
+      </nav>         
+    </header>
+
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        .home__title
 SNACK <br> WITH NO <br> LIMITS
 
 .home__description
@@ -36,20 +80,24 @@ Snack Now
 
 .button__ghost
 Buy Now
+         
+      </section>
 
-
-========== FAVORITES ==========
-.section__title
+      <!--==================== FAVORITES ====================-->
+      <section class="favorite section" id="favorites">
+        .section__title
 DISCOVER YOUR <br> FAVORITE FLAVORS
 
 .favorites__description
 Try some exotic flavors or delicious 
 toppings. We have collected some delicious 
 snack recipes from around the world for you.
+         
+      </section>
 
-
-========== CARE ==========
-.section__title
+      <!--==================== CARE ====================-->
+      <section class="care section" id="care">
+        .section__title
 ENJOY AND TAKE <br> CARE OF YOUR HEALTH
 
 .care__item p
@@ -66,17 +114,21 @@ preservatives.
 
 They contain fewer calories and less 
 fat for good health.
+         
+      </section>
 
-
-========== BANNER ==========
-.banner__item span
+      <!--==================== BANNER ====================-->
+      <section class="banner">
+        .banner__item span
 GOOD FOR NATURE
 
 LOW CALORIES
+         
+      </section>
 
-
-========== PRODUCTS ==========
-.section__title
+      <!--==================== PRODUCTS ====================-->
+      <section class="products section" id="products">
+        .section__title
 BEST SELLING <br> PRODUCT
 
 .products__subtitle .products__title .products__price
@@ -100,9 +152,12 @@ Mix
 Chips
 $10
 
+         
+      </section>
 
-========== CONTACT ==========
-.section__title
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        .section__title
 CONTACT US TO <br> EAT CHIPS
 
 .contact__title
@@ -121,10 +176,12 @@ mailto:examplemail@correo.com
 
 Lima - Sun City - Peru <br>
 Av. Moon #4321
+         
+      </section>
+    </main>
 
-
-========== FOOTER ==========
-.footer__logo
+    <footer class="footer">
+      .footer__logo
 CHIPS
 
 .footer__link
@@ -133,6 +190,8 @@ Privacy Policy
 
 .footer__copy
 &#169; All Rights Reserved By Bedimcode
+         
+    </footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
